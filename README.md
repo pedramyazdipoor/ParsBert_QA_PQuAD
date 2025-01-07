@@ -2,7 +2,7 @@
 
 In this project, I fine-tuned a customized version of the famous persian pre-trained language model [ParsBert](https://github.com/hooshvare/parsbert).
 
-The dataset I used is [PQuAD](https://github.com/AUT-NLP/PQuAD) which is a crowd-sourced reading comprehension dataset on Persian Language. It includes 80,000 questions along with their answers, with 25% of the questions being unanswerable.
+The dataset I used is [PQuAD](https://github.com/AUT-NLP/PQuAD) introduced in this [article](https://www.sciencedirect.com/science/article/abs/pii/S0885230823000050) which is a crowd-sourced reading comprehension dataset on Persian Language. It includes 80,000 questions along with their answers, with 25% of the questions being unanswerable.
 ## Architecture
 We added two feed-forward layers on top of last layer of ParsBert.\
 You may ask Why two layers?\
