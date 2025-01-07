@@ -6,7 +6,7 @@ The dataset I used is [PQuAD](https://github.com/AUT-NLP/PQuAD) which is a crowd
 ## Architecture
 We added two feed-forward layers on top of last layer of ParsBert.\
 You may ask Why two layers?\
-Since we have embeddings for each token in last layer, we add one layer for predicting each token being the start token of the answer and the other layer is responsible for predicting each token being the end token of the answer. Weights of these two layers will be optimized during fine-tuning process. 
+Since we have embeddings for each token in last layer, we add one layer for predicting each token being the start token of the answer and the other layer is responsible for predicting each token being the end token of the answer. Weights of these two layers will be optimized through fine-tuning process. 
 
 ![68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f6d61782f313834302f312a51684958734442456e414e4c584d4130794f4e7878412e706e67](https://github.com/user-attachments/assets/1ea14a75-fec7-4690-a57f-4aeb27af8a99)
 
