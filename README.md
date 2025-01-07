@@ -106,7 +106,7 @@ print(tokenizer.tokenize(text + question)[answer_start_index : (answer_end_index
 
 ## Acknowledgments
 We did this project thanks to the fantastic job done by [HooshvareLab](https://huggingface.co/HooshvareLab/bert-fa-base-uncased).
-We also express our gratitude to [PQuAD team]((https://github.com/AUT-NLP/PQuAD)) for facilitating dataset gathering.
+We also express our gratitude to [PQuAD team](https://github.com/AUT-NLP/PQuAD) for facilitating dataset gathering.
 
 ## Contributors
 - Pedram Yazdipoor : [Linkedin](https://www.linkedin.com/in/pedram-yazdipour/)
