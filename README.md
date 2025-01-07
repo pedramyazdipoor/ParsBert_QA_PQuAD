@@ -24,7 +24,7 @@ Through mentioned settings we got the results below:\
 Exact Match: 47.44\
 F1-Score: 81.96
 ## How to use
-
+You can find more information on [hugging face](https://huggingface.co/pedramyazdipoor/parsbert_question_answering_PQuAD).
 ### Pytorch
 ```python
 from transformers import AutoTokenizer, AutoModelForQuestionAnswering
