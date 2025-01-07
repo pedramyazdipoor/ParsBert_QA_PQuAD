@@ -13,6 +13,6 @@ n_epochs = 2,
 max_seq_len = 256,
 learning_rate = 5e-5
 ``` 
-Through mentioned settings we got the results below:
+Through mentioned settings we got the results below:\
 Exact Match: 47.44
 F1-Score: 81.96
