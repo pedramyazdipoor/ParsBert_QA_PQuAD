@@ -25,7 +25,7 @@ Exact Match: 47.44\
 F1-Score: 81.96
 ## How to use
 
-## Pytorch
+### Pytorch
 ```python
 from transformers import AutoTokenizer, AutoModelForQuestionAnswering
 path = 'pedramyazdipoor/parsbert_question_answering_PQuAD'
@@ -33,7 +33,7 @@ tokenizer = AutoTokenizer.from_pretrained(path)
 model = AutoModelForQuestionAnswering.from_pretrained(path)
 ```
 
-## Tensorflow
+### Tensorflow
 ```python
 from transformers import AutoTokenizer, TFAutoModelForQuestionAnswering
 path = 'pedramyazdipoor/parsbert_question_answering_PQuAD'
@@ -41,7 +41,7 @@ tokenizer = AutoTokenizer.from_pretrained(path)
 model = TFAutoModelForQuestionAnswering.from_pretrained(path)
 ```
 
-## Inference for pytorch
+### Inference for pytorch
 I leave Inference for tensorflow as an excercise for you :) .
 
 There are some considerations for inference:
@@ -106,7 +106,7 @@ print(tokenizer.tokenize(text + question)[answer_start_index : (answer_end_index
 
 ## Acknowledgments
 We did this project thanks to the fantastic job done by [HooshvareLab](https://huggingface.co/HooshvareLab/bert-fa-base-uncased).
-We also express our gratitude to [Newsha Shahbodaghkhan](https://huggingface.co/datasets/newsha/PQuAD/tree/main) for facilitating dataset gathering.
+We also express our gratitude to PQuAD team for facilitating dataset gathering.
 
 ## Contributors
 - Pedram Yazdipoor : [Linkedin](https://www.linkedin.com/in/pedram-yazdipour/)
